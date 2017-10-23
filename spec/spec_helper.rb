@@ -17,4 +17,5 @@ end
 
 def reset_i18n
   I18n.backend = I18n::Backend::Simple.new
+  I18n.config.available_locales = %i[en de ja]
 end
